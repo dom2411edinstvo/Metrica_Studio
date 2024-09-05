@@ -53,7 +53,7 @@ p {
     display: flex;
     margin-bottom: 150px;
     height: 500px;
-    background-image: url('../interior.png');
+    background-image: url('nterior.png');
 }
 .paragraph-one-text {
     display: flex;
