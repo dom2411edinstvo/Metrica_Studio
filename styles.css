@@ -66,13 +66,13 @@ p.interior__text {
     line-height: 150%;
     color: #fff;
 }
+section.about {
+    font-weight: 400;
+}
 h2 {
     margin-bottom: 30px;
     font-size: 18px;
     color: #121212;
-}
-section.about {
-    font-weight: 400;
 }
 p.about__text {
     margin-bottom: 30px;
