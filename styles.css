@@ -65,7 +65,7 @@ h3 {
   display: flex;
   max-width: 1150px;
   min-height: 500px;
-  background-image: url("../resources/Интерьеры.jpg");
+  background-image: url("Интерьеры.jpg");
 }
 .interior__text {
   position: absolute;
