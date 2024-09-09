@@ -2,13 +2,12 @@ body {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   width: 100%;
-  background: #f5f5f5;
+  background: #fff;
 }
 .container {
   margin: 0 auto;
-  max-width: 1400px;
-  padding: 0px 125px;
-  background: #fff;
+  max-width: 1180px;
+  padding: 0px 15px;
   letter-spacing: -3%;
 }
 .header {
@@ -46,7 +45,6 @@ li a {
 h1 {
   margin-bottom: 30px;
   width: 956px;
-  white-space: nowrap;
   font-size: 60px;
   letter-spacing: -1.8px;
   line-height: 60px;
@@ -67,14 +65,13 @@ h3 {
   display: flex;
   max-width: 1150px;
   min-height: 500px;
-  background-image: url("Интерьеры.jpg");
+  background-image: url("../resources/Интерьеры.jpg");
 }
 .interior__text {
   position: absolute;
   /* display: flex; */
   /* align-items: flex-end; */
   width: 430px;
-  white-space: nowrap;
   bottom: 40px;
   left: 40px;
   font-size: 20px;
@@ -88,7 +85,6 @@ h3 {
 .about__text {
   margin-bottom: 30px;
   width: 1048px;
-  white-space: nowrap;
   font-size: 45px;
   letter-spacing: -1.3px;
   line-height: 63px;
@@ -153,8 +149,8 @@ h3 {
 }
 .services__container {
   margin: 0 auto;
-  max-width: 1400px;
-  padding: 0px 125px;
+  max-width: 1180px;
+  padding: 0px 15px;
 }
 .services__heading {
   margin-bottom: 34px;
