@@ -226,7 +226,7 @@ h3 {
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0.52%,
       rgba(0, 0, 0, 0.4) 82.81%),
-    url("/resources/Проект_двухкомнатной_квартиры.jpg") no-repeat center / cover;
+    url("resources/Проект_двухкомнатной_квартиры.jpg") no-repeat center / cover;
 }
 
 .example__heading {
@@ -254,7 +254,7 @@ h3 {
   content: "";
   width: 24px;
   height: 24px;
-  background-image: url("/resources/phone_icon.png");
+  background-image: url("resources/phone_icon.png");
 }
 
 .contacts__call {
