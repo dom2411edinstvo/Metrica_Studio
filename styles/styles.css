@@ -1,0 +1,325 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1151.35px;
+  padding: 0px 15px;
+}
+
+.header {
+  margin-bottom: 74px;
+  padding-top: 33px;
+  font-weight: 400;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+}
+
+.header__menu {
+  display: inline-block;
+  float: right;
+}
+
+.header__menu__point {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.header__menu__point a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  color: #121212;
+}
+
+.header__menu__point:last-child {
+  margin-right: 0;
+}
+
+.header__menu__point:hover {
+  border-bottom: 1px solid #121212;
+  opacity: 50%;
+  line-height: 27px;
+}
+
+.header__menu__point:active {
+  opacity: 50%;
+  border-bottom: 1px solid #000;
+}
+
+h1 {
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  letter-spacing: -1.8px;
+  line-height: 60px;
+  color: #121212;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  color: #121212;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: -1.8px;
+}
+
+.interior {
+  position: relative;
+  margin-bottom: 150px;
+  max-width: 1150px;
+  min-height: 500px;
+  background-image: url("../resources/Интерьеры.jpg");
+  font-weight: 400;
+}
+
+.interior__text {
+  position: absolute;
+  width: 430px;
+  bottom: 40px;
+  left: 40px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about__heading {
+  line-height: 55px;
+}
+
+.about__text {
+  margin-bottom: 30px;
+  width: 1048px;
+  font-size: 45px;
+  letter-spacing: -1.3px;
+  line-height: 63px;
+  color: #121212;
+}
+
+.about__link {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background-color: #ad1818;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+}
+
+.projects {
+  margin-bottom: 150px;
+}
+
+.projects__heading {
+  line-height: 55px;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-list__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+.item__image {
+  margin-bottom: 15px;
+}
+
+.item__title {
+  margin-bottom: 15px;
+  color: #121212;
+}
+
+.item__link {
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.projects__link {
+  display: flex;
+  justify-content: center;
+  padding: 57px 0px;
+  border: solid 1px #ad1818;
+  border-radius: 5px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  color: #ad1818;
+  text-decoration: none;
+}
+
+.projects__link:hover {
+  background-color: #ad1818;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.services {
+  padding: 150px 0px;
+  background-color: #121212;
+}
+
+.services__heading {
+  margin-bottom: 34px;
+  line-height: 55px;
+  color: #fff;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__unit {
+  margin-bottom: 60px;
+}
+
+.list__unit:nth-last-child(1) {
+  margin-bottom: 0px;
+}
+
+.unit__image {
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+.unit__title {
+  color: #fff;
+}
+
+.example {
+  position: relative;
+  width: 100%;
+  margin: 0px auto 150px;
+  height: 717px;
+  background: linear-gradient(180deg,
+      rgba(0, 0, 0, 0) 0.52%,
+      rgba(0, 0, 0, 0.4) 82.81%),
+    url("/resources/Проект_2-комнатной квартиры_ЖК_Лесной_Пейзаж.jpg") no-repeat center / cover;
+}
+
+.example__heading {
+  position: absolute;
+  bottom: 60px;
+  width: 440px;
+  line-height: 41px;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.contacts {
+  margin-bottom: 150px;
+}
+
+.contacts__heading {
+  position: relative;
+  padding-top: 40px;
+}
+
+.contacts__heading::before {
+  position: absolute;
+  left: -4px;
+  bottom: 37px;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("/resources/phone_icon.png");
+}
+
+.contacts__call {
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.contacts__mail {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 60px;
+  color: #121212;
+  opacity: 50%;
+  text-decoration: none;
+  border-bottom: 2px solid #121212;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #121212;
+}
+
+.footer__menu {
+  margin-bottom: 87px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.footer__menu__point {
+  display: inline-block;
+  margin-right: 55px;
+}
+
+.footer__menu__point a {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__menu__point:last-child {
+  margin-right: 0;
+}
+
+.footer__menu__point:hover {
+  opacity: 50%;
+}
+
+.footer__menu__point:active {
+  opacity: 50%;
+  border-bottom: 1px solid #000;
+}
+
+.footer__text {
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height: 27px;
+  color: #fff;
+  opacity: 50%;
+  text-align: center;
+  letter-spacing: normal;
+}
