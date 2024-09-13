@@ -293,8 +293,6 @@ h3 {
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
   background-color: #121212;
 }
 
@@ -302,6 +300,9 @@ h3 {
 }
 
 .footer__menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 55px;
   margin-bottom: 87px;
   padding-top: 60px;
   text-align: center;
@@ -309,7 +310,6 @@ h3 {
 
 .footer__menu-item {
   display: inline-block;
-  margin-right: 55px;
 }
 
 .footer__menu-item a {
@@ -321,7 +321,6 @@ h3 {
 }
 
 .footer__menu-item:last-child {
-  margin-right: 0;
 }
 
 .footer__menu-item:hover {
