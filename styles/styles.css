@@ -11,13 +11,13 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1151.35px;
+  max-width: 1180px;
   padding: 0px 15px;
 }
 
 .header {
+  margin-top: 33px;
   margin-bottom: 74px;
-  padding-top: 33px;
   font-weight: 400;
 }
 
@@ -29,17 +29,20 @@ body {
   display: block;
 }
 
-.header__menu {
-  display: inline-block;
+.header__nav {
   float: right;
 }
 
-.header__menu__point {
+.header__menu {
+  float: right;
+}
+
+.header__menu-item {
   display: inline-block;
   margin-right: 60px;
 }
 
-.header__menu__point a {
+.header__menu-item a {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -47,17 +50,17 @@ body {
   color: #121212;
 }
 
-.header__menu__point:last-child {
+.header__menu-item:last-child {
   margin-right: 0;
 }
 
-.header__menu__point:hover {
+.header__menu-item:hover {
   border-bottom: 1px solid #121212;
   opacity: 50%;
   line-height: 27px;
 }
 
-.header__menu__point:active {
+.header__menu-item:active {
   opacity: 50%;
   border-bottom: 1px solid #000;
 }
@@ -85,12 +88,15 @@ h3 {
 }
 
 .interior {
-  position: relative;
   margin-bottom: 150px;
-  max-width: 1150px;
-  min-height: 500px;
-  background-image: url("../resources/Интерьеры.jpg");
+  width: 100%;
   font-weight: 400;
+}
+
+.interior__wrap {
+  position: relative;
+  height: 500px;
+  background: url("../resources/Интерьеры.jpg") no-repeat center / cover;
 }
 
 .interior__text {
@@ -223,10 +229,13 @@ h3 {
   width: 100%;
   margin: 0px auto 150px;
   height: 717px;
-  background: linear-gradient(180deg,
+  background: linear-gradient(
+      180deg,
       rgba(0, 0, 0, 0) 0.52%,
-      rgba(0, 0, 0, 0.4) 82.81%),
-    url("../resources/Проект_двухкомнатной_квартиры.jpg") no-repeat center / cover;
+      rgba(0, 0, 0, 0.4) 82.81%
+    ),
+    url("../resources/Проект_двухкомнатной_квартиры.jpg") no-repeat center /
+      cover;
 }
 
 .example__heading {
@@ -257,17 +266,24 @@ h3 {
   background-image: url("../resources/phone_icon.png");
 }
 
+.contacts__list {
+}
+
 .contacts__call {
-  display: inline-block;
   margin-bottom: 30px;
+}
+
+.contacts__mail {
+}
+
+.contacts__call a {
   font-size: 60px;
   line-height: 60px;
   color: #121212;
   text-decoration: none;
 }
 
-.contacts__mail {
-  display: inline-block;
+.contacts__mail a {
   font-size: 60px;
   line-height: 60px;
   color: #121212;
@@ -282,18 +298,21 @@ h3 {
   background-color: #121212;
 }
 
+.footer__nav {
+}
+
 .footer__menu {
   margin-bottom: 87px;
   padding-top: 60px;
   text-align: center;
 }
 
-.footer__menu__point {
+.footer__menu-item {
   display: inline-block;
   margin-right: 55px;
 }
 
-.footer__menu__point a {
+.footer__menu-item a {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.5px;
@@ -301,15 +320,15 @@ h3 {
   text-decoration: none;
 }
 
-.footer__menu__point:last-child {
+.footer__menu-item:last-child {
   margin-right: 0;
 }
 
-.footer__menu__point:hover {
+.footer__menu-item:hover {
   opacity: 50%;
 }
 
-.footer__menu__point:active {
+.footer__menu-item:active {
   opacity: 50%;
   border-bottom: 1px solid #000;
 }
