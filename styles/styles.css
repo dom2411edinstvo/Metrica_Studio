@@ -159,6 +159,7 @@ h3 {
   margin-bottom: 15px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .item__title {
@@ -219,6 +220,7 @@ h3 {
   margin-bottom: 15px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .unit__title {
