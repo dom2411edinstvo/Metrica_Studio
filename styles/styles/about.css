@@ -1,0 +1,40 @@
+.about {
+  padding-bottom: 150px;
+}
+
+.about__text {
+  margin-bottom: 30px;
+  max-width: 1048px;
+  font-size: 45px;
+  line-height: 63px;
+  color: rgb(18, 18, 18);
+}
+
+@media (max-width: 1199px) {
+
+  .about {
+    margin-bottom: 120px;
+  }
+
+  .about__text {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+    color: rgb(18, 18, 18);
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .about {
+    margin-bottom: 80px;
+  }
+
+  .about__text {
+    width: 346px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+}
