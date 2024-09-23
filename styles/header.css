@@ -1,0 +1,48 @@
+.header {
+  margin-top: 33px;
+  margin-bottom: 74px;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+}
+
+.header__nav {
+  float: right;
+}
+
+.header__menu {
+  float: right;
+}
+
+.header__menu-item {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.header__menu-item a {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: rgb(18, 18, 18);
+}
+
+.header__menu-item:last-child {
+  margin-right: 0;
+}
+
+.header__menu-item:hover {
+  border-bottom: 1px solid rgb(18, 18, 18);
+  opacity: 0.5;
+  line-height: 27px;
+}
+
+.header__menu-item:active {
+  opacity: 0.5;
+  border-bottom: 1px solid rgb(0, 0, 0);
+}
