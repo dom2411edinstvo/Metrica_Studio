@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Метрика</title>
+  <title> Студия "Метрика"</title>
   <link rel="icon" href="./resources/Метрика.svg" type="image/png" />
   <link rel="stylesheet" href="styles/reset.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,22 +14,36 @@
 </head>
 
 <body>
+
+  <!-- Шапка с навигацией -->
+
   <header class="header" id="header">
     <div class="container">
-      <a href="#" class="logo-link">
-        <img src="./resources/logo.svg" alt="Логотип" class="logo" />
-      </a>
-      <nav class="header__nav">
-        <ul class="header__menu">
-          <li class="header__menu-item"><a href="#about">О нас</a></li>
-          <li class="header__menu-item"><a href="#projects">Проекты</a></li>
-          <li class="header__menu-item"><a href="#services">Услуги</a></li>
-          <li class="header__menu-item"><a href="#contacts">Контакты</a></li>
-        </ul>
-      </nav>
+      <div class="header-wrap">
+        <a href="#" class="logo-link">
+          <picture>
+            <source media="(max-width: 767px)" srcset="./resources/logo_767.svg" />
+            <img src="./resources/logo.svg" alt="Логотип" class="logo" />
+          </picture>
+        </a>
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item"><a href="#about">О нас</a></li>
+            <li class="header__menu-item"><a href="#projects">Проекты</a></li>
+            <li class="header__menu-item"><a href="#services">Услуги</a></li>
+            <li class="header__menu-item"><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
+
+  <!-- Основной контент -->
+
   <main>
+
+    <!-- Первый экран сайта -->
+
     <section class="interior">
       <div class="container">
         <h1 class="interior__heading">
@@ -43,18 +57,26 @@
         </div>
       </div>
     </section>
+
+    <!-- Секция "О нас" -->
+    
     <section class="about">
       <div class="container">
-        <h2 id="about" class="about__heading">О нас</h2>
-        <p class="about__text">
-          Студия основана в 2011 году. Полностью отдаемся проектированию и
-          реализации интерьеров. К нам обращаются за уютом, индивидуальными
-          решениями и практичностью. Находим конструктивные решения для
-          каждого интерьера, вплоть до каждой детали — нацелены на результат.
-        </p>
-        <a href="#services" class="about__link">Посмотреть услуги</a>
+        <div class="about__wrap">
+          <h2 id="about" class="about__heading">О нас</h2>
+          <p class="about__text">
+            Студия основана в 2011 году. Полностью отдаемся проектированию и
+            реализации интерьеров. К нам обращаются за уютом, индивидуальными
+            решениями и практичностью. Находим конструктивные решения для
+            каждого интерьера, вплоть до каждой детали — нацелены на результат.
+          </p>
+          <a href="#services" class="about__link">Посмотреть услуги</a>
+        </div>
       </div>
     </section>
+
+    <!-- Секция "Проекты" -->
+
     <section class="projects">
       <div class="container">
         <h2 class="projects__heading" id="projects">Проекты</h2>
@@ -91,56 +113,78 @@
         <a href="#" class="projects__link">Смотреть все проекты</a>
       </div>
     </section>
+
+    <!-- Секция "Услуги" -->
+
     <section class="services">
       <div class="container">
         <h2 class="services__heading" id="services">Услуги</h2>
         <ul class="services__list">
           <li class="list__unit">
-            <picture>
-              <source media="(max-width: 767px)" srcset="./resources/Планировочные_решения_767.jpeg" />
-              <source media="(max-width: 1199px)" srcset="./resources/Планировочные_решения_1199.jpeg" />
-              <img src="resources/Планировочные_решения.jpg" alt="Карандаш на бумаге с чертежом" class="unit__image" />
-            </picture>
-            <h3 class="unit__title">Планировочное решение</h3>
-            <p class="unit__price">от 2500₽/м²</p>
+            <a href="#" class="unit_link">
+
+              <picture>
+                <source media="(max-width: 767px)" srcset="./resources/Планировочные_решения_767.jpeg" />
+                <source media="(max-width: 1199px)" srcset="./resources/Планировочные_решения_1199.jpeg" />
+                <img src="resources/Планировочные_решения.jpg" alt="Карандаш на бумаге с чертежом"
+                  class="unit__image" />
+              </picture>
+              <h3 class="unit__title">Планировочное решение</h3>
+              <p class="unit__price">от 2500₽/м²</p>
+            </a>
           </li>
           <li class="list__unit">
-            <picture>
-              <source media="(max-width: 767px)" srcset="./resources/Дизайн_проект_767.jpeg" />
-              <source media="(max-width: 1199px)" srcset="./resources/Дизайн_проект_1199.jpeg" />
-              <img src="resources/Дизайн-проект.jpg" alt="Цветная бумага" class="unit__image" />
-            </picture>
-            <h3 class="unit__title">Дизайн-проект</h3>
-            <p class="unit__price">от 3000₽/м²</p>
+            <a href="#" class="unit__link">
+
+              <picture>
+                <source media="(max-width: 767px)" srcset="./resources/Дизайн_проект_767.jpeg" />
+                <source media="(max-width: 1199px)" srcset="./resources/Дизайн_проект_1199.jpeg" />
+                <img src="resources/Дизайн-проект.jpg" alt="Цветная бумага" class="unit__image" />
+              </picture>
+              <h3 class="unit__title">Дизайн-проект</h3>
+              <p class="unit__price">от 3000₽/м²</p>
+            </a>
+
           </li>
           <li class="list__unit">
-            <picture>
-              <source media="(max-width: 767px)" srcset="./resources/Авторский_надзор_767.jpeg" />
-              <source media="(max-width: 1199px)" srcset="./resources/Авторский_надзор_1199.jpeg" />
-              <img src="resources/Авторский_надзор.jpeg" alt="Дизайнер пишет в тетради" class="unit__image" />
-            </picture>
-            <h3 class="unit__title">Авторский надзор</h3>
-            <p class="unit__price">от 30 000₽/м²</p>
+            <a href="#" class="unit__link">
+
+              <picture>
+                <source media="(max-width: 767px)" srcset="./resources/Авторский_надзор_767.jpeg" />
+                <source media="(max-width: 1199px)" srcset="./resources/Авторский_надзор_1199.jpeg" />
+                <img src="resources/Авторский_надзор.jpeg" alt="Дизайнер пишет в тетради" class="unit__image" />
+              </picture>
+              <h3 class="unit__title">Авторский надзор</h3>
+              <p class="unit__price">от 30 000₽/м²</p>
+            </a>
+
           </li>
           <li class="list__unit">
-            <picture>
-              <source media="(max-width: 767px)" srcset="./resources/Комплектация_767.jpeg" />
-              <source media="(max-width: 1199px)" srcset="./resources/Комплектация_1199.jpeg" />
-              <img src="resources/Комплектация.jpg" alt="Склад" class="unit__image" />
-            </picture>
-            <h3 class="unit__title">Комплектация</h3>
-            <p class="unit__price">5% от стоимости</p>
+            <a href="#" class="unit__link">
+
+              <picture>
+                <source media="(max-width: 767px)" srcset="./resources/Комплектация_767.jpeg" />
+                <source media="(max-width: 1199px)" srcset="./resources/Комплектация_1199.jpeg" />
+                <img src="resources/Комплектация.jpg" alt="Склад" class="unit__image" />
+              </picture>
+              <h3 class="unit__title">Комплектация</h3>
+              <p class="unit__price">5% от стоимости</p>
+            </a>
+
           </li>
         </ul>
         <button class="services__btn" type="button">Заказать услугу</button>
       </div>
     </section>
+
+    <!-- Секция "Отзывы" -->
+
     <section class="reviews">
       <div class="container">
         <h2 class="reviews__heading">Отзывы</h2>
         <div class="rows-wrap">
-          <div class="row">
-            <div class="col">
+          <ul class="row">
+            <li class="col">
               <h4 class="col__heading">Ксения, проект 65 кв.м.</h4>
               <p class="col__paragraph">
                 Хочу искренне поблагодарить Вас за работу, проделанную на
@@ -155,8 +199,8 @@
                 воплотить красоту, которую Вы нам создали в жизнь и поделиться
                 с Вами результатом!
               </p>
-            </div>
-            <div class="col">
+            </li>
+            <li class="col">
               <h4 class="col__heading">Регина, проект 89 кв.м.</h4>
               <p class="col__paragraph">
                 Спасибо большое за такой классный проект! Все стильно, круто,
@@ -170,10 +214,10 @@
                 функциональной и красивой квартирой! Будем рекомендовать Вас
                 всем друзьям и знакомым!
               </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col_big">
+            </li>
+          </ul>
+          <ul class="row">
+            <li class="col col_big">
               <h4 class="col__heading">Яна, проект 120 кв.м.</h4>
               <p class="col__paragraph">
                 Хотелось бы сказать большое спасибо за проделанную работу! В
@@ -190,32 +234,102 @@
                 стильным и современным! Буду рекомендовать Вас тем, кому еще
                 предстоит это непростое дело - ремонт!
               </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Секция "Галерея" -->
+
+    <section class="gallery-section" id="gallery=section">
+      <div class="gallery">
+        <div class="gallery__title-wrapper">
+          <div class="container">
+            <p class="gallery__title">
+              Галерея проектов
+            </p>
+          </div>
+        </div>
+        <ul class="gallery__slides">
+          <div class="container">
+
+            <li class="gallery__slide gallery__slide_active">
+              <picture>
+                <source media="(max-width: 767px)" srcset="./resources/2-room_apartment_project_767.png" />
+                <source media="(max-width: 1199px)" srcset="./resources/2-room_apartment_project_1199.png" />
+                <img src="./resources/2-room_apartment_project.jpeg" alt="Комната с кроватью"
+                  class="gallery__slide__image">
+              </picture>
+              <div class="container">
+                <h3 class="gallery__slide__heading">
+                  Проект Двухкомнтаной квартиры в ЖК Лесной Пейзаж
+                </h3>
+              </div>
+            </li>
+            <li class="gallery__slide">
+              <img src="./resources/Living_room_Mayak.jpeg" alt="Комната с жёлтым креслом"
+                class="gallery__slide__image">
+              <div class="container">
+                <h3 class="gallery__slide__heading gallery__slide__heading_line-height">Проект гостиной в ЖК Маяк</h3>
+              </div>
+            </li>
+            <li class="gallery__slide">
+              <img src="./resources/kitchen_living_room.jpeg" alt="гостиная комната" class="gallery__slide__image">
+              <div class="container">
+                <h3 class="gallery__slide__heading">Визуализация кухни-гостиной в частном доме</h3>
+              </div>
+            </li>
+            <li class="gallery__slide">
+              <img src="./resources/Scandinavian_style_kitchen_project.jpeg" alt="Кухня" class="gallery__slide__image">
+              <div class="container">
+                <h3 class="gallery__slide__heading">Проект кухни в скандинавском стиле для ЖК Северный Ветер</h3>
+              </div>
+
+        </ul>
+        <div class="container">
+          <div class="gallery__controls-wrapper">
+            <div class="gallery__controls">
+              <button class="gallery__control-prev">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/prev_767.svg" /><img src="./resources/prev.svg"
+                    alt="Стрелка влево">
+                </picture>
+              </button>
+              <button class="gallery__control-next">
+                <picture>
+                  <source media="(max-width: 767px)" srcset="./resources/next_767.svg" /><img src="./resources/next.svg"
+                    alt="Стрелка вправо">
+                </picture>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="example" id="example">
-      <div class="container">
-        <h3 class="example__heading">
-          Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж
-        </h3>
-      </div>
-    </section> -->
+
+    <!-- Секция "Контакты" -->
+
     <section class="contacts">
       <div class="container">
-        <h2 class="contacts__heading" id="contacts">Контакты</h2>
-        <ul class="contacts__list">
-          <li class="contacts__call">
-            <a href="tel:+79358954535">+7 935 895-45-35</a>
-          </li>
-          <li class="contacts__mail">
-            <a href="mailto:hello@mail.com">hello@mail.com</a>
-          </li>
-        </ul>
+        <adress>
+          <h2 class="contacts__heading" id="contacts">Контакты</h2>
+
+          <ul class="contacts__list">
+            <li class="contacts__call">
+              <a href="tel:+79358954535">+7 935 895-45-35</a>
+            </li>
+            <li class="contacts__mail">
+              <a href="mailto:hello@mail.com">hello@mail.com</a>
+            </li>
+          </ul>
+        </adress>
       </div>
     </section>
   </main>
+
+  <!-- Подвал сайта -->
+
   <footer class="footer" id="footer">
     <div class="container">
       <nav class="footer__nav">
@@ -229,3 +343,9 @@
       <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
     </div>
   </footer>
+
+  <!-- Подключение скрипта для секции "Галерея" -->
+  <script src="./js/gallery.js"></script>
+</body>
+
+</html>
