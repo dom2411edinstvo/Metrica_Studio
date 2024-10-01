@@ -1,0 +1,83 @@
+.interior {
+}
+
+.interior__heading {
+  margin-bottom: 30px;
+  max-width: 971px;
+  font-size: 60px;
+  line-height: 60px;
+  color: rgb(18, 18, 18);
+}
+
+.interior__wrap {
+  position: relative;
+  height: 500px;
+  background: url("../resources/interior.jpeg") no-repeat center / cover;
+}
+
+.interior__text {
+  position: absolute;
+  width: 430px;
+  bottom: 40px;
+  left: 40px;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1199px) {
+	
+  .interior__heading {
+    font-size: 50px;
+    width: inherit;
+    max-width: 807px;
+  }
+
+  .interior__wrap {
+    height: 400px;
+    background: url("../resources/interior_1199.jpeg") no-repeat center / cover;
+  }
+
+  .interior__text {
+    bottom: 30px;
+    left: 42px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .interior__heading {
+    font-size: 30px;
+    line-height: 32px;
+    width: inherit;
+    max-width: 345px;
+    margin-bottom: 25px;
+  }
+
+
+  .interior__wrap {
+    height: 304px;
+  }
+
+  .interior__text {
+    bottom: 15px;
+    left: 15px;
+    width: 290px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+	
+  .interior__wrap {
+    background: url("../resources/interior_767.jpeg");
+  }
+  
+  .interior__text {
+   
+  }
+
+}
