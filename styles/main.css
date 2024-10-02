@@ -27,10 +27,8 @@ body {
   overflow: hidden;
 }
 
-main {}
-
 section {
-  padding-bottom: 150px;
+  padding-bottom: 135px;
 }
 
 .container {
@@ -42,7 +40,7 @@ section {
 h2 {
   margin-bottom: 30px;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 55px;
   color: rgb(18, 18, 18);
   text-transform: uppercase;
 }
@@ -58,33 +56,20 @@ h4 {
   line-height: 61px;
 }
 
-
-
-@media (max-width: 1199px) {
+@media (max-width: 961px) {
   section {
-    padding-bottom: 120px;
+    padding-bottom: 105px;
   }
 
-
-
-  @media (max-width: 767px) {
+  @media (max-width: 550px) {
     section {
-      padding-bottom: 80px;
+      padding-bottom: 72px;
     }
 
-  }
-
-
-  @media (max-width: 500px) {
-    section {
-      padding-bottom: 40px;
+    h2 {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 35px;
     }
-
-
   }
-
 }
-
-
-
-

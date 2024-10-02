@@ -3,7 +3,6 @@
   margin-bottom: 74px;
 }
 
-
 .header-wrap {
   position: relative;
   display: flex;
@@ -11,21 +10,9 @@
   align-items: center;
 }
 
-.logo-link {
-}
-
-.logo {
-}
-
-.header__nav {
-}
-
 .header__menu {
   display: flex;
   column-gap: 60px;
-}
-
-.header__menu-item {
 }
 
 .header__menu-item a {
@@ -65,8 +52,7 @@
   justify-content: end;
   background: rgb(0, 0, 0, 0.9);
   opacity: 0;
-  visibility: hidden;;
-
+  visibility: hidden;
 }
 
 .burger_open {
@@ -82,7 +68,6 @@
   padding: 80px 0px 80px 30px;
   transition: transform 0.3s linear;
   transform: translateX(100%);
-  
 }
 
 .burger_open .burger__content {
@@ -91,9 +76,6 @@
 
 .burger__logo {
   width: 156px;
-}
-
-.burger__nav {
 }
 
 .burger__menu {
@@ -127,44 +109,35 @@
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.burger__footer {
-  
-}
 .burger__footer__wrap {
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 15px;
 }
+
 .burger__heading {
   font-size: 16px;
   line-height: 22px;
   opacity: 0.5;
 }
+
 .burger__list {
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 15px;
 }
-.burger__call a, .burger__mail a {
+
+.burger__call a,
+.burger__mail a {
   font-size: 20px;
   line-height: 27px;
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 
-@media (max-width: 1199px) {
-
-  .burger {
-  }
-
-  .header-wrap {
-  }
-
-  .header__nav {
-  }
-
+@media (max-width: 961px) {
   .header__menu {
     display: none;
   }
@@ -178,17 +151,14 @@
   }
 
   .burger-btn_open {
-	position: fixed;
+    position: fixed;
     top: 33px;
     z-index: 200;
     background: url("../resources/кнопка_закрыть_бургер.jpeg") no-repeat center;
-    
   }
-	
 }
 
-@media (max-width: 767px) {
-
+@media (max-width: 550px) {
   .header {
     margin-top: 31px;
     margin-bottom: 61px;
@@ -204,6 +174,4 @@
     top: 31px;
     background: url("../resources/кнопка_закрыть_бургер.jpeg") no-repeat center;
   }
-
-
 }
