@@ -14,7 +14,7 @@
 
 .interior__text {
   position: absolute;
-  width: 430px;
+  max-width: 430px;
   bottom: 40px;
   left: 40px;
   font-size: 20px;
