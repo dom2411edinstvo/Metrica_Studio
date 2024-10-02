@@ -25,6 +25,7 @@
 @media (max-width: 961px) {
   .projects-list {
     row-gap: 80px;
+    margin-bottom: 100px;
   }
 
   .item__title {
@@ -37,6 +38,7 @@
 @media (max-width: 550px) {
   .projects-list {
     row-gap: 50px;
+    margin-bottom: 60px;
   }
 
   .item__title {

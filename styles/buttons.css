@@ -62,9 +62,7 @@
 }
 
 @media (max-width: 961px) {
-  .projects__link {
-    margin-top: 100px;
-  }
+
 }
 
 @media (max-width: 550px) {
@@ -76,7 +74,6 @@
   }
 
   .projects__link {
-    margin-top: 60px;
     padding: 37px 0px;
     border-radius: 4px;
     font-size: 22px;
